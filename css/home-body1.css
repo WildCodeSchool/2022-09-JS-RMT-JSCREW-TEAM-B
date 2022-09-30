@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'Heebo', sans-serif;
+}
+
+p {
+    font-size: 0.8rem;
+}
+
+.bloc-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.text-video {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    top: auto;
+    color: #F5F5F5;
+}
+
+.sous-h1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+input{
+    width: 30%;
+    border: 1px solid #c9c9c9;
+    background-color: #FF9B8F;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    color: #F5F5F5;
+}
+
+.submit:hover{
+    box-shadow: 5px 5px 5px #F5F5F5;
+    background-color: whitesmoke;
+    border : 1px solid #ff9b8f;
+}
+
+.under-video {
+    padding: 20px; 
+    text-align: justify;
+}
