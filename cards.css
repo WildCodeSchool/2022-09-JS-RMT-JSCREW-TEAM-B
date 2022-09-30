@@ -73,6 +73,10 @@
     width: 100%;
   }
 
+  .card-header{
+    width: 100%;
+  }
+
   #beppu{
     background-image: url(assets/beppu.jpg);
   }
