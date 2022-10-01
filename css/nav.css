@@ -27,7 +27,24 @@ img {
     display: none;
 }
 
+.mobile-menu{
+    display: none;
+}
 
+.visible-menu{
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    /* margin: 20px 0; */
+    background-color: #f2f1f149;
+    backdrop-filter: blur(5px);   
+}
+
+/* OLD VERSION */
 
 /* .nav-links {
     top: 100px;
@@ -45,13 +62,11 @@ img {
     padding-bottom: 300px;
 } */
 
-/* .nav-links ul {
+.mobile-menu ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-} */
-
-/* applique a la nav-links un possitionement */
+}
 
 /* .nav-links ul li {
     margin: 20px 0;
@@ -59,7 +74,7 @@ img {
     font-weight: bolder;
 } */
 
-.navbar a {
+.mobile-menu a {
     color: #454545;
 }
 
@@ -71,6 +86,10 @@ img {
 
 @media screen and (min-width:768px){
     .navbar .menu-hamburger {
+        display: none;
+    }
+
+    .mobile-menu{
         display: none;
     }
 
