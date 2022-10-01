@@ -31,11 +31,16 @@ body{
     display: none;
 }
 
-.mobile-menu{
+/* MOBILE MENU VERSION 2 */
+
+/* .mobile-menu{
     display: none;
+    margin-left: -100%;
+    transition: opacity 1s ease;
 }
 
 .visible-menu{
+    margin: 0;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -43,29 +48,35 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px 0;
-    /* margin: 20px 0; */
-    background-color: #f2f1f149;
-    backdrop-filter: blur(5px);   
-}
+    padding: 20px 0;    
+    background-color: #5c5c5c96;
+    backdrop-filter: blur(10px); 
+} */
 
-/* OLD VERSION */
 
-/* .mobile-menu {
+/* MOBILE MENU VERSION 1 */
+
+.mobile-menu {
     top: 100px;
     left: 0;
     position: absolute;
-    background-color: #f2f1f149;
-    backdrop-filter: blur(5px);
+    background-color: #5c5c5c96;
+    backdrop-filter: blur(10px); 
+    padding: 20px 0;
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
     margin-left: -100%;
-    transition: all 0.5s ease;
+    opacity: 0;
+    transition: opacity 1.5s ease;
     padding-bottom: 300px;
-} */
+}
+.visible-menu {
+    margin-left: 0;
+    opacity: 1;
+}
+
 
 .mobile-menu ul {
     display: flex;
@@ -81,13 +92,9 @@ body{
 
 .mobile-menu a {
     text-decoration: none;
-    color: #454545;
+    color: #ffffff;
 
 }
-
-/* .nav-links.mobile-menu {
-    margin-left: 0;
-} */
 
 /* MEDIA QUERRY DESKTOP  */
 
@@ -124,5 +131,15 @@ body{
         font-weight: bolder;
     }
     
+}
 
+header{
+    height: 200px;
+}
+
+.header-image-test{
+    width: 100%;
+    height: 100%;
+    background-image: url("https://picsum.photos/536/354");
+    background-size: cover;
 }
