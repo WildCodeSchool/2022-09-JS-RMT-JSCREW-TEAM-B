@@ -23,11 +23,13 @@ img {
     width: 80px;
 }
 
-.nav-desktop{
+.desktop-menu{
     display: none;
 }
 
-.nav-links {
+
+
+/* .nav-links {
     top: 100px;
     left: 0;
     position: absolute;
@@ -41,45 +43,47 @@ img {
     margin-left: -100%;
     transition: all 0.5s ease;
     padding-bottom: 300px;
-}
+} */
 
-.nav-links ul {
+/* .nav-links ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+} */
 
 /* applique a la nav-links un possitionement */
 
-.nav-links ul li {
+/* .nav-links ul li {
     margin: 20px 0;
     font-size: 1.2em;
     font-weight: bolder;
-}
+} */
 
 .navbar a {
     color: #454545;
 }
 
-.nav-links.mobile-menu {
+/* .nav-links.mobile-menu {
     margin-left: 0;
-}
+} */
+
+/* MEDIA QUERRY DESKTOP  */
 
 @media screen and (min-width:768px){
     .navbar .menu-hamburger {
         display: none;
     }
 
-    .nav-desktop{
+    .desktop-menu{
         display: block;
     }
-    .navbar .nav-desktop ul {
+    .navbar .desktop-menu ul {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
 
-    .navbar .nav-desktop ul li{
+    .navbar .desktop-menu ul li{
         margin: 10px;
     }
 
