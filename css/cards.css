@@ -72,19 +72,19 @@
   }
 
   #beppu{
-    background-image: url(assets/beppu.jpg);
+    background-image: url("../assets/beppu.jpg");
   }
   #himeji{
-    background-image: url(assets/himeji.jpg);
+    background-image: url("../assets/himeji.jpg");
   }
   #miyajima{
-    background-image: url(assets/miyajima.jpg);
+    background-image: url("../assets/miyajima.jpg");
   }
   #mont-fuji{
-    background-image: url(assets/montfuji.jpg);
+    background-image: url("../assets/montfuji.jpg");
   }
   #seiganto-ji{
-    background-image: url(assets/seigantoji.jpg);
+    background-image: url("../assets/seigantoji.jpg");
   }
   .card-body {
     display: flex;
