@@ -1,8 +1,4 @@
-/* *{
-    box-sizing: border-box;
-    margin: 0 auto;
-    font-family: 'Heebo', sans-serif;
-} */
+
 
 footer{
     background-color: whitesmoke;
@@ -27,8 +23,8 @@ footer{
     /* .contact-form{
         border-left: 1px solid #454545;
     } */
-    img.logo-footer{
-        margin-bottom: 60px;
+    section.logo-container{
+        margin-bottom: 0px;
     }
 
     hr{
@@ -63,11 +59,15 @@ li a:hover{
     align-items: center;
 }
 
+img.logo-footer{
+    text-align: center;
+}
 
 .logo-container a{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
     text-align: center;
 }
 
@@ -121,7 +121,6 @@ input.submit{
     width: 30%;
     margin: 50px;
     padding: 20px;
-    color: #F9EBE2;
     font-weight: bolder;
     background-image: url(assets/paper-plane-white.png);
     background-repeat: no-repeat;
