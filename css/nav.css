@@ -57,7 +57,7 @@ body{
     top: 100px;
     left: 0;
     position: absolute;
-    background-color: #5c5c5c96;
+    background-color: #00000096;
     backdrop-filter: blur(10px); 
     padding: 20px 0;
     width: 100%;
@@ -68,6 +68,7 @@ body{
     opacity: 0;
     transition: opacity 1s ease;
     padding-bottom: 300px;
+    z-index: 1;
 }
 .visible-menu {
     margin-left: 0;
@@ -130,7 +131,7 @@ body{
     
 }
 
-header{
+/* header{
     height: 200px;
-}
+} */
 

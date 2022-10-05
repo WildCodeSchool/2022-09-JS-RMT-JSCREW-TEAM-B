@@ -7,6 +7,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/global.css">
         <link rel="stylesheet" href="css/nav.css">
+        <link rel="stylesheet" href="css/home-body1.css">
+        <link rel="stylesheet" href="css/carrousel.css">
         <link rel="stylesheet" href="css/cards.css">
         <link rel="stylesheet" href="css/footer.css">
         <script src="asset.js" defer></script>
@@ -19,6 +21,8 @@
     <title>Document</title>
 </head>
     <body>
+
+      <!-- NAVIGATION -->
         <nav>
             <section class="navbar">
                 <div id="logo">
@@ -52,10 +56,126 @@
             </section>
             
         </nav>
+
+        <!-- HEARDER -->
         <header>
+          <div class="bloc-video">
+            <video width="100%" height="100%" autoplay='autoplay' muted='' loop="infinite">
+            <source src="assets/videocomp.mp4" type="video/mp4">
+            </video>
+    
+            <div class="text-video">
+                <h1>Inaka</h1>
+                <p class="sous-h1">私たちは人生を逃れるために旅をするのではなく、人生が私たちを逃がさないために</p>
+                <p class="sous-sous-h1">'We do not travel to escape life, but so that life does not escape us'</p>
+                <input class="submit-contact" type="submit" value="Contact us" onclick="footer.html">
+            </div>
+        </div> 
+        </header>  
+        
+        <main>
+
+          <!-- HOME BODY 1 -->
+          <section class="home-body">
+            <div class="under-video">
+              <h2>Discover our travel guide to Japan!</h2>
+              <p>Paradoxical and intoxicating, Japan plunges the traveler into the heart of an ocean of dazzling contrasts. From the fervor of Tokyo to the assertive authenticity of Kyoto, its poetic countryside, its majestic mountains and its lake landscapes offer the traveler an incredible variety of activities and atmospheres.</p>
+            </div>
+          </section>
+            <div class="bloc-saumon" >
+              <img class='lac' src="assets/lac.jpg" id="lac">
+              <div class="element-picto">
+                  <div class="population">
+                      <img src="assets/population.png" id="population">
+                      <h3>Population</h3>
+                      <span>128 856 349</span> 
+                  </div>
+                  <div class="area">
+                      <img src="assets/superficie.png" id="superficie">
+                      <h3>Area</h3>
+                      <span>377 975km²</span>
+                  </div>
+                  <div class="monney">
+                      <img src="assets/monnaie.png" id="monnaie">
+                      <h3>Monney</h3>
+                      <span>Yen</span>
+                  </div>
+                  <div class="hours">
+                      <img src="assets/horaire.png" id="horaire">
+                      <h3>Hours</h3>
+                      <span>UTC +9</span>
+                  </div>
+              </div>
+            </div>
+          
+        
+
+          <!-- CARROUSEL -->
+
+          <section class="carrousel-container">
+            <div>
+              <h1 class="carrousel-title">Discover our destination</h1>
+              <p>Japan is not only visited through its cities.
+                It is also discovered in its countryside, its mountains and its plains and through all the diversity of the geography of Japan. Your Japanese trip is an invitation to immerse yourself in the nature that surrounds the archipelago. Its fauna and flora are all reasons to get away from the tumultuous cities, where tradition and modernity coexist.
+                The poetic landscapes of Japan give you another facet of the country, far from the usual tourist sites.</p>
+            </div>
+  
+            <article class="carousel" aria-label="Gallery">
+  
             
-        </header>
-        <section class="cards-container">
+              
+              <oul class="carousel__viewport">
+                  <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+                      <div class="carousel__snapper"></div>
+                      <a href="#carousel__slide5" class="carousel__prev">Go to last slide</a>
+                      <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
+                  </li>
+                  <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+                      <div class="carousel__snapper"></div>
+                      <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
+                      <a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
+                  </li>
+                  <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+                      <div class="carousel__snapper"></div>
+                      <a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>
+                      <a href="#carousel__slide4" class="carousel__next">Go to next slide</a>
+                  </li>
+                  <li id="carousel__slide4" tabindex="0" class="carousel__slide">
+                      <div class="carousel__snapper"></div>
+                      <a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
+                      <a href="#carousel__slide5 " class="carousel__next">Go to next slide</a>
+                  </li>
+                  <li id="carousel__slide5" tabindex="0" class="carousel__slide">
+                      <div class="carousel__snapper"></div>
+                      <a href="#carousel__slide4" class="carousel__prev">Go to previous slide</a>
+                      <a href="#carousel__slide1" class="carousel__next">Go to first slide</a>
+                  </li>
+              </ul>
+                  <aside class="carousel__navigation">
+                      <ul class="carousel__navigation-list">
+                          <li class="carousel__navigation-item">
+                              <a href="#carousel__slide1" class="carousel__navigation-button"></a>
+                          </li>
+                          <li class="carousel__navigation-item">
+                              <a href="#carousel__slide2" class="carousel__navigation-button"></a>
+                          </li>
+                          <li class="carousel__navigation-item">
+                              <a href="#carousel__slide3" class="carousel__navigation-button"></a>
+                          </li>
+                          <li class="carousel__navigation-item">
+                              <a href="#carousel__slide4" class="carousel__navigation-button"></a>
+                          </li>
+                          <li class="carousel__navigation-item">
+                              <a href="#carousel__slide5" class="carousel__navigation-button"></a>
+                          </li>
+                      </ul>
+                  </aside>
+                </article>
+          </section>
+          
+
+          <!-- CARTES -->
+          <section class="cards-container">
     
             <div class="cards">
                 <div class="title-location">
@@ -115,6 +235,8 @@
                   </div>
               </div>
         </section>
+        </main>
+        
 
         <footer class="footer">
 
