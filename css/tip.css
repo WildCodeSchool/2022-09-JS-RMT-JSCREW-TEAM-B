@@ -1,0 +1,25 @@
+.tip-personal{
+    width: 80%;
+    background-color: white;
+    margin-left: 10%;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 1px solid #FF9B8F;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+ }
+
+.tip{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left:  10px;
+    margin-right: 10px;
+ }
+ .tip h2{
+    margin-bottom: 5px;
+ }
+ .tip p{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 10px;
+ }
