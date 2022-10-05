@@ -29,6 +29,7 @@ video {
 
 .home-body{
     padding: 0 10%;
+    margin-bottom: 80px;
 }
 
 .sous-h1 {
@@ -87,7 +88,7 @@ h2 {
     top: -40px;
     margin: 10%;
     margin-bottom: 0;
-    border-radius: 5%;
+    border-radius: 20px;
 }
 
 .bloc-saumon {
@@ -143,6 +144,10 @@ h2 {
 
     .under-video {
         margin: 20px 0;
+    }
+
+    .home-body{
+        margin-bottom: 30px;
     }
 
     .bloc-saumon {

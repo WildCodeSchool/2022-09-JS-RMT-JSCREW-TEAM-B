@@ -53,7 +53,7 @@ p{
     margin: 50px 0;
     position: relative;
     padding-top: 75%;
-    filter: drop-shadow(0 0 10px #0003);
+    filter: drop-shadow(2px 2px 10px #0003);
     perspective: 100px;
     -ms-overflow-style: none;
     scrollbar-width: 0px;
@@ -70,6 +70,7 @@ p{
     counter-reset: item;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
+    border-radius: 20px;
 }
 
 
@@ -118,10 +119,10 @@ p{
     background-size: cover;
 }
 
-.textcarousel {
+/* .textcarousel {
     color: #454545;
     font-family: 'Fresca', sans-serif;
-}
+} */
 
 
 .carousel__slide:before {
