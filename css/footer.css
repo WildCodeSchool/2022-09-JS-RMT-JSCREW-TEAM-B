@@ -1,8 +1,4 @@
-*{
-    box-sizing: border-box;
-    margin: 0 auto;
-    font-family: 'Heebo', sans-serif;
-}
+
 
 footer{
     background-color: whitesmoke;
@@ -27,8 +23,8 @@ footer{
     /* .contact-form{
         border-left: 1px solid #454545;
     } */
-    img.logo-footer{
-        margin-bottom: 60px;
+    section.logo-container{
+        margin-bottom: 0px;
     }
 
     hr{
@@ -39,7 +35,7 @@ footer{
 
 /* Pre-footer */
 
-ul{
+.footer-menu ul{
     font-size: 1.5rem;
     list-style: none;
     line-height: 3rem;
@@ -48,13 +44,13 @@ ul{
     width: 100%;
 }
 
-li a{
+.footer-menu li a{
     text-decoration: none;
     color: #ff9b8f;
     font-weight: bolder;
 }
 
-li a:hover{
+.footer-menu li a:hover{
     color: #454545;
 
 }
@@ -63,11 +59,15 @@ li a:hover{
     align-items: center;
 }
 
+img.logo-footer{
+    text-align: center;
+}
 
 .logo-container a{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
     text-align: center;
 }
 
@@ -75,11 +75,6 @@ li a:hover{
     width: 60%; 
 }
 
-
-hr{
-    width: 60%;
-    color: #454545; 
-}
 
 /* Formulaire */
 
@@ -121,9 +116,9 @@ input.submit{
     width: 30%;
     margin: 50px;
     padding: 20px;
-    color: #F9EBE2;
     font-weight: bolder;
-    background-image: url(assets/paper-plane-white.png);
+    color: white;
+    /* background-image: url(assets/paper-plane-white.png); */
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -132,7 +127,7 @@ input.submit{
     box-shadow: 10px 10px 30px #afafaf;
     background-color: whitesmoke;
     border : 1px solid #ff9b8f;
-    background-image: url(assets/paper-plane-pink.png);
+    /* background-image: url(assets/paper-plane-pink.png); */
     background-repeat: no-repeat;
     background-position: center;
 }
