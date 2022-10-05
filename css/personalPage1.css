@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+/*.criteria {
+  display: grid;
+  grid-template-columns: 1fr ;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 150px;
+}*/
+
+
+
+.criteria {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 150px;
+
+}
+.criteria span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.items .criteria span {
+  margin: 15px 0;
+  padding: 10px 20px;
+  text-align: center;
+  width: 150px;
+  font-family: fresca;
+  color: #454545;
+  font-size: 0.9rem;
+  
+}
+.bar {
+  width: 150px; 
+  height: 10px;
+  border-radius: 20px ;
+  box-shadow: inset 6px 6px 6px #d9dade, inset -6px -6px 6px #FFFFFF;
+}
+.bar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.bar .progress {
+  height: 100%;
+  background-color: #FF9B8F;
+  border-radius: 20px;
+}
+.bar:nth-child(1) .progress {
+ width: 90%;
+}
+.bar:nth-child(2) .progress {
+  width: 70%;
+}
+.bar:nth-child(3) .progress {
+  width: 55%;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+}
+
+.stat span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 35px 8px;
+  font-family: fresca ;
+  font-size: 1rem ;
+  color: #FF9B8F;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  img {
+    max-width: 60%;
+    height: auto;
+  }
+
+
+ .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+ }
+ .items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 150px;
+ }
+
+ .criteria {
+  width: 250px;
+  display: flex;
+  justify-content: flex-start;
+  
+ }
+
+ .items .criteria span {
+  font-size: 1.2rem ;
+  width: 300px;
+  text-align: left;
+  font-family: fresca;
+
+ }
+ .stat span {
+  font-size: 1rem;
+  margin: 25px 5px;
+  font-family: fresca;
+ }
+
+ .bar {
+  width: 200px; 
+  height: 10px;
+  border-radius: 20px ;
+  box-shadow: inset 6px 6px 6px #d9dade, inset -6px -6px 6px #FFFFFF;
+  margin: 30px 30px;
+}
+
+  
+}
