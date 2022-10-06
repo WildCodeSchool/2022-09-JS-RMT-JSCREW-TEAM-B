@@ -2,13 +2,18 @@
     box-sizing: border-box;
     margin: 0;
 }
+
+li{
+    list-style: none;
+}
+
 body{
     font-family: 'Heebo', sans-serif;
     font-size: 1rem;
 }
 
 p {
-    
+    /* font-size: 1.2rem; */
     color: #454545;
 }
 
