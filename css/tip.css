@@ -1,11 +1,22 @@
+.bloc-saumon{
+   margin-top: 100px;
+   background-color: #FF9B8F;
+   height: 100%;
+}
+
 .tip-personal{
+    display: block;
+    height: auto;
+    position: relative;
+    top: -50px;
     width: 80%;
     background-color: white;
     margin-left: 10%;
     margin-top: 20px;
     border-radius: 20px;
     border: 1px solid #FF9B8F;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 10px;
+    padding: 20px 0;
  }
 
 .tip{
