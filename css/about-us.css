@@ -1,27 +1,25 @@
-img {
+.about-us{
+    margin: 50px 0;
+    padding: 0 10%;
+}
+
+
+.card img {
     width: 100%;
     border-radius: 12px;
     height: 214px;
     object-fit: cover;
 }
 
-body {
-    background-color: whitesmoke;
-    font-family: 'heebo', sans-serif;
-    color: #454545;
-}
-
 
 #container {
     max-width: 300px;
+    /* padding: 0 10%; */
     margin: 0 auto;
-    margin-top: 20vh;
-    
 }
 
 .card {
     background-color: white;
-    padding: 8px;
     border-radius: 12px;
     border: 1px solid transparent;
     margin-bottom: 20px;
