@@ -1,26 +1,28 @@
-*{
+/* *{
   box-sizing: border-box;
   margin: 0;
   font-family: 'Heebo', sans-serif;
-}
+} */
 
 .flex-body1 {
   display: flex;
   flex-direction: column;
+  padding: 0 10%;
+  margin: 20px 0;
 }
 
 .picture {
-  width: 100%;
+  border-radius: 20px;
 }
 
 p {
   text-align: justify;
-  font-size: 0.8rem;
+  /* font-size: 0.8rem; */
   margin-bottom: 20px;
 }
 
 .bloc-lieu-progressbar {
-  margin: 20px;
+  margin: 20px 0;
 }
 .criteria {
   display: flex;
@@ -31,12 +33,13 @@ p {
 .bar {
   display: flex;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
   height: 20px;
 }
 
 .bar p{
-  margin-left: 20px;
+  margin-left: 50px;
+  margin-bottom: 5px;
   color: #FF9B8F;
   font-weight: bold;
 } 
@@ -65,14 +68,18 @@ progress::-webkit-progress-value {
   .picture {
     width: 60%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 20px;
   }
 
  .flex-body1 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 20px;
+  margin: 20px 0;
  }
+
+ .bloc-lieu-progressbar {
+  margin: 20px;
+}
  
 }
