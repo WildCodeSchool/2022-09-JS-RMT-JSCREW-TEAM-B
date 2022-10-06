@@ -1,8 +1,8 @@
-html, body {
+/* html, body {
     margin: 0;
     padding: 0;
   }
-  
+   */
   /* .pic-ctn {
     width: 100vw;
     height: 200px;
@@ -10,7 +10,7 @@ html, body {
   
   @keyframes display {
     0% {
-      transform: translateX(200px);
+      transform: translateX(500px);
       opacity: 0;
     }
     10% {
@@ -22,7 +22,7 @@ html, body {
       opacity: 1;
     }
     30% {
-      transform: translateX(-200px);
+      transform: translateX(-500px);
       opacity: 0;
     }
     100% {
@@ -32,6 +32,7 @@ html, body {
   }
   .containerpartner{
     justify-content: center;
+    margin-top: 30px;
   }
 
   .titlepartner {
@@ -43,8 +44,9 @@ html, body {
   .pic-ctn {
     position: relative;
     width: 100%;
-    height: 300px;
-    margin-top: 10px;
+    height: 250px;
+    /* margin-top: 10px; */
+    /* margin-bottom: -50px; */
   }
   
   .pic-ctn > img {
