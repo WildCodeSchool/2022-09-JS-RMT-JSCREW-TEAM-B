@@ -1,20 +1,22 @@
 /* A SUPPRIMER */
 body {
-    width: 100%;
+    /* width: 100%;
     margin: 0 auto;
     padding: 0 1.25rem;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif; */
     list-style: none;
 }
 /* A SUPPRIMER */
-* {
-    box-sizing: border-box;
-    scrollbar-color: transparent transparent;
+
+    /* box-sizing: border-box; */
+    /* scrollbar-color: transparent transparent; */
     /* thumb and track color */
    
+p{
+    text-align: justify;
 }
 /* ok à partir de là */
-.carousel::-webkit-scrollbar {
+/* .carousel::-webkit-scrollbar {
     width: 0;
 }
 
@@ -25,7 +27,7 @@ body {
 .carousel::-webkit-scrollbar-thumb {
     background: transparent;
     border: none;
-}
+} */
 
 /* ul li {
     
@@ -33,10 +35,24 @@ body {
     padding: 0;
 } */
 
+.carrousel-container{
+    padding: 0 10%;
+}
+
+
+.carrousel-title{
+    margin-top: 30px;
+}
+
+.carrousel-container p{
+    text-align: justify;
+}
+
 .carousel {
+    margin: 50px 0;
     position: relative;
     padding-top: 75%;
-    filter: drop-shadow(0 0 10px #0003);
+    filter: drop-shadow(2px 2px 10px #0003);
     perspective: 100px;
     -ms-overflow-style: none;
     scrollbar-width: 0px;
@@ -53,6 +69,7 @@ body {
     counter-reset: item;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
+    border-radius: 20px;
 }
 
 
@@ -60,7 +77,7 @@ body {
     position: relative;
     flex: 0 0 100%;
     width: 100%;
-    background-image: url("assets/beppu.jpg");
+    background-image: url("../assets/beppu.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -69,7 +86,7 @@ body {
     position: relative;
     flex: 0 0 100%;
     width: 100%;
-    background-image: url("assets/montfuji.jpg");
+    background-image: url("../assets/montfuji.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -78,7 +95,7 @@ body {
     position: relative;
     flex: 0 0 100%;
     width: 100%;
-    background-image: url("assets/miyajima.jpg");
+    background-image: url("../assets/miyajima.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -87,7 +104,7 @@ body {
     position: relative;
     flex: 0 0 100%;
     width: 100%;
-    background-image: url("assets/himeji.jpg");
+    background-image: url("../assets/himeji.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -96,15 +113,15 @@ body {
     position: relative;
     flex: 0 0 100%;
     width: 100%;
-    background-image: url("assets/seigantoji.jpg");
+    background-image: url("../assets/seigantoji.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.textcarousel {
+/* .textcarousel {
     color: #454545;
     font-family: 'Fresca', sans-serif;
-}
+} */
 
 
 .carousel__slide:before {

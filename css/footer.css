@@ -118,7 +118,7 @@ input.submit{
     padding: 20px;
     font-weight: bolder;
     color: white;
-    /* background-image: url(assets/paper-plane-white.png); */
+    background-image: url("../assets/paper-plane-white.png");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -127,7 +127,7 @@ input.submit{
     box-shadow: 10px 10px 30px #afafaf;
     background-color: whitesmoke;
     border : 1px solid #ff9b8f;
-    /* background-image: url(assets/paper-plane-pink.png); */
+    background-image: url("../assets/paper-plane-pink.png");
     background-repeat: no-repeat;
     background-position: center;
 }
