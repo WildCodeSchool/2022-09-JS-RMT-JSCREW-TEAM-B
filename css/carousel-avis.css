@@ -1,20 +1,12 @@
-/* * {
-    box-sizing: border-box;
+.carousel-avis{
+    padding: 0 10%;
+    margin-bottom: 20px;
 }
 
-body,
-select,
-optgroup,
-textarea {
-    color: #3d4852;
-    font-family: 'Muli', sans-serif;
-    font-size: 1rem;
-    line-height: 1.6;
-} */
-
-.card-title-avis {
+.card-title-name {
     font-size: 1.25rem;
     margin-top: 0;
+    text-align: center;
 }
 
 .note-avis{
@@ -31,19 +23,13 @@ textarea {
     display: inline-block;
 }
 
-/* svg {
-    fill: currentColor;
-    width: 1.5rem;
-    height: 1.5rem;
-} */
-
 .img-avis {
     height: auto;
     margin-bottom: .5rem;
-    width: 60%;
+    width: 40%;
     position: relative;
-    left: calc(50% - 64.8px);
-    border-radius: 50px;
+    left: calc(60% - 64.8px);
+    border-radius: 20px;
 }
 
 .progress-avis[value]{
@@ -81,9 +67,11 @@ textarea {
 } */
 
 .card-avis {
-    border: 1px solid #bac6d3;
-    border-radius: 8px;
+    /* border: 1px solid #ebebeb; */
+    border-radius: 15px;
     padding: 1rem;
+    margin: 1rem;
+    box-shadow: 5px 5px 15px #45454554;
 }
 
 /********************************
