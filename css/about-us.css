@@ -3,6 +3,9 @@
     padding: 0 10%;
 }
 
+p {
+    text-align: justify;
+}
 
 .card img {
     width: 100%;
