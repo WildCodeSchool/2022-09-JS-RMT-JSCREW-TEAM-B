@@ -23,6 +23,13 @@ body{
     height: 100px;
 }
 
+.navbar .search-bar{
+    display: flex;
+    align-items: center;
+}
+
+
+
 #logo img {
     width: 80px;
 }
