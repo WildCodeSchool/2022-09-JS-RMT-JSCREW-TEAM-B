@@ -43,9 +43,10 @@
     font-size: 14px;
     font-weight: 600;
     line-height: 150%;
-    width: 80%;
+    width: 90%;
     color: #454545;
     margin-left: 10px;
+
 }
 
 @media screen and (min-width : 768px) {
