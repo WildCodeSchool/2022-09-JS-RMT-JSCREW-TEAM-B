@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    font-family: 'Heebo', sans-serif;
+    font-size: 1rem;
+}
+
+p {
+    /* font-size: 1.2rem; */
+    color: #454545;
+}
+
+h2 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #454545;
+}

@@ -1,0 +1,44 @@
+.container-map{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    
+}
+.map-meteo{
+    width: 60%;
+}
+.meteo{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    align-self: center;
+    justify-items: center;
+}
+.meteo1{
+    width: 40%;
+}
+.meteo2{
+    width: 40%;
+}
+.description-meteo1{
+    margin-bottom: 0px;
+    justify-self: start;
+}
+.description-meteo2{
+    margin-bottom: 0px;
+    justify-self: start;
+}
+@media screen and (min-width:768px){
+    .container-map{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+
+    }
+    }

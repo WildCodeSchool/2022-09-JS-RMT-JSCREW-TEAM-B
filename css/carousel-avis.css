@@ -1,0 +1,153 @@
+.carousel-avis{
+    padding: 0 10%;
+    margin-bottom: 20px;
+}
+
+.card-title-name {
+    font-size: 1.25rem;
+    margin-top: 0;
+    text-align: center;
+}
+
+.note-avis{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.carousel-items ul{
+    margin: 0 0 1.5rem;
+    padding: 0;
+}
+
+.carousel-item li {
+    display: inline-block;
+}
+
+.img-avis {
+    height: auto;
+    margin-bottom: .5rem;
+    width: 40%;
+    position: relative;
+    left: calc(60% - 64.8px);
+    border-radius: 20px;
+}
+
+.progress-avis[value]{
+    -webkit-appearance: none;
+}
+
+.progress-avis[value]::-webkit-progress-bar{
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+.progress-avis::-webkit-progress-value{
+    background: #ff9b8f;
+    border-radius: 20px;
+}
+
+.progress-bar-avis{
+    display: flex;
+    align-items: center;
+}
+
+.progress-bar-avis p{
+    color: #ff9b8f;
+    margin: 0 auto;
+}
+
+.main-avis {
+    padding-top: 0.5rem;
+    margin: 10px;
+}
+
+/* header {
+    padding: 1rem 2rem;
+    text-align: center;
+} */
+
+.card-avis {
+    /* border: 1px solid #ebebeb; */
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 5px 5px 15px #45454554;
+}
+
+/********************************
+* Carousel styles
+*********************************/
+.carousel-items {
+    display: flex;
+    overflow-x: scroll;
+    padding: 1rem 0;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel-item {
+    flex: 1 0 250px;
+    margin-left: 1rem;
+    scroll-snap-align: start;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+    height: 6px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #454545;
+    border-radius: 3px;
+}
+
+
+/********************************
+* Breakpoints
+*********************************/
+/* @media screen and (min-width: 768px) {
+    .carousel-item {
+        flex-basis: 300px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    body,
+    select,
+    optgroup,
+    textarea {
+        font-size: 1.125rem;
+    }
+
+    h1 {
+        font-size: 2.75rem;
+    }
+
+    .carousel-item {
+        flex-basis: 325px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    .carousel-item {
+        flex-basis: 450px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+
+    body,
+    select,
+    optgroup,
+    textarea {
+        font-size: 1.25rem;
+    }
+} */
