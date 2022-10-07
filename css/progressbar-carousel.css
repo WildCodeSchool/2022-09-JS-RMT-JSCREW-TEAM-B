@@ -50,6 +50,7 @@
     left: calc(50% - auto);
     opacity: 0;
     animation: display 8s infinite;   
+    border-radius: 15px;
 }
   
 img:nth-child(2) {
